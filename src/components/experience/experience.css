@@ -1,0 +1,71 @@
+.experience_container {
+    margin-bottom: 4rem;
+}
+
+.experiences{
+    display: flex;
+    gap: 4rem;
+    margin-top: 3rem;
+}
+.experiences div {
+    background: var(--color-bgb);
+    color: var(--color-text);
+    flex-basis: 50%;
+}
+
+.frontend, .backend {
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    border: 1.5px solid var(--color-bga);
+    transition: var(--transition);
+}
+
+.experiences div h4 {
+    color: var(--color-text);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.experiences div p {
+    font-size: 0.8rem;
+}
+
+article {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid p {
+    margin-top: 0.4rem;
+    font-weight: bold;
+}
+
+.increase {
+    width: 1.5rem;
+    height: auto;
+}
+
+.h3_2, .about_2 {
+    text-align: center;
+}
+
+.about_2 {
+   margin: 0.4rem auto;
+}
+
+/* ---Media Query for sm devices---- */
+
+@media screen and (max-width: 600px) {
+  .experiences {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+}
+    

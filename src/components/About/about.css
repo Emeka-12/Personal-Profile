@@ -1,0 +1,54 @@
+.about_container {
+    display: grid;
+    grid-template-columns: 28% 52%;
+    gap: 10%;
+}
+.about {
+    content: '';
+    width: 3rem;
+    height: 2px;
+    background: var(--color-bga);
+}
+
+.link_space {
+    margin-right: 1rem;
+}
+
+.about_text p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.t {
+    margin: 5rem 0 0 6rem;
+}
+
+
+/* ---Media Query for sm devices---- */
+
+@media screen and (max-width: 600px) {
+    .about_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 0;
+        margin-bottom: 3rem;
+        height: 42vh;
+        margin-top: 2rem;
+    }
+
+    .about {
+        margin: 0 auto;
+    }
+
+    .t {
+        margin: 2rem auto 0;
+    }
+
+    .about_text  {
+        text-align: center;
+    }
+
+   
+
+}
+    
